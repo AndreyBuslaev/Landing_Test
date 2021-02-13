@@ -1,0 +1,59 @@
+@media (min-width: 1200px) and (max-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  header,
+  section {
+    max-width: 1440px;
+    height: 100%;
+    min-height: 300px;
+  }
+
+  section {
+    height: 500px;
+  }
+
+  .section-macbook-image {
+    width: 550px;
+  }
+
+  .macbook2 {
+    /* left: 50%; */
+  }
+
+  .section-screen-image {
+    width: 466px;
+    top: 118px;
+    left: 275px;
+  }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-macbook-image {
+    width: 450px;
+    left: 85px;
+  }
+  .section-screen-image {
+    width: 400px;
+    top: 195px;
+    left: 245px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+}
