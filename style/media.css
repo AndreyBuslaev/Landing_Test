@@ -1,57 +1,239 @@
 @media (min-width: 1200px) and (max-width: 1440px) {
   body {
-    font-size: 16px;
+    font-size: 1.3vw;
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 2.5vw;
   }
 
-  header,
-  section {
-    max-width: 1440px;
-    height: 100%;
-    min-height: 300px;
+  .cooperation,
+  .input-description,
+  .footer-menu-items-secondary-ul,
+  .contact,
+  .feedback-description {
+    font-size: 1.1vw;
   }
 
-  section {
-    height: 500px;
+  .item-application {
+    font-size: 0.87vw;
   }
 
-  .section-macbook-image {
-    width: 550px;
+  .menu-item {
+    font-size: 1.45vw;
   }
 
-  .macbook2 {
-    /* left: 50%; */
+  .border {
+    font-size: 1.3vw;
   }
 
-  .section-screen-image {
-    width: 466px;
-    top: 118px;
-    left: 275px;
+  .all-about-germany-footer {
+    font-size: 2.2vw;
   }
 }
 
 /* Portrait tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .section-macbook-image {
-    width: 450px;
-    left: 85px;
+@media (min-width: 991px) and (max-width: 1199px) {
+  body {
+    font-size: 1.3vw;
   }
-  .section-screen-image {
-    width: 400px;
-    top: 195px;
-    left: 245px;
+
+  h1 {
+    font-size: 2.5vw;
+  }
+  .cooperation,
+  .input-description,
+  .footer-menu-items-secondary-ul,
+  .contact,
+  .feedback-description {
+    font-size: 1.1vw;
+  }
+
+  .section-macbook1-image {
+    bottom: unset;
+  }
+
+  .section-macbook2-image {
+    bottom: unset;
+  }
+
+  .item-application {
+    font-size: 0.87vw;
+  }
+
+  .menu-item {
+    font-size: 1.45vw;
+  }
+
+  .border {
+    font-size: 1.3vw;
+  }
+
+  .all-about-germany-footer {
+    font-size: 2.2vw;
   }
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
+  body {
+    font-size: 1.3vw;
+  }
+
+  h1 {
+    font-size: 2.5vw;
+  }
+
+  header {
+    min-height: 270px;
+  }
+
+  section {
+    min-height: 380px;
+  }
+
+  input {
+    width: 36vw;
+  }
+
+  footer {
+    height: 500px;
+  }
+
+  #message {
+    width: 36vw;
+  }
+
+  .cooperation,
+  .input-description,
+  .footer-menu-items-secondary-ul,
+  .contact,
+  .feedback-description {
+    font-size: 1.1vw;
+  }
+
+  .item-application {
+    font-size: 0.87vw;
+  }
+
+  .menu-item {
+    font-size: 1.45vw;
+  }
+
+  .border {
+    font-size: 1.3vw;
+  }
+
+  .all-about-germany-footer {
+    font-size: 2.2vw;
+  }
+
+  .li-menu-item {
+    margin: 0 10px;
+  }
+
+  .search-btn-item {
+    margin-right: 0;
+  }
+
+  .heading-items-item1 {
+    width: 77%;
+  }
+
+  .heading-cooperation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .heading-item-first,
+  .heading-item-second {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .heading-item-first {
+    margin-bottom: 30px;
+  }
+
+  .line-menu {
+    width: 90px;
+  }
+  .section-macbook1-image {
+    width: 83%;
+    height: 83%;
+    bottom: auto;
+  }
+  .section-macbook2-image {
+    bottom: auto;
+  }
+
+  .feedback-block {
+    margin-top: 40px;
+    width: 45vw;
+    max-width: 450px;
+    height: 460px;
+  }
+
+  .feedback-heading {
+    margin-top: 20px;
+  }
+
+  .form-feedback {
+    display: block;
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+
+  .feedback-btn-wrapper {
+    text-align: start;
+  }
+
+  .section-feedback-block {
+    width: 52%;
+  }
+  .hello-germany-block {
+    width: 48%;
+  }
+
+  .hello-germany-img {
+    height: 84%;
+  }
+
+  .footer-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .all-about-germany-footer {
+    margin-top: 40px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .border {
+    margin-top: 20px;
+    padding-left: 13px;
+  }
+
+  .footer-menu-items-secondary-li {
+    padding-left: 13px;
+  }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  .menu-items {
+    flex-wrap: wrap;
+  }
+
+  .li-menu-item {
+    flex: 1 0 25%;
+    margin: 10px 10px;
+  }
 }
 
 /* Landscape phones and smaller */
