@@ -98,8 +98,6 @@ footer {
   width: 100%;
   height: 82px;
   display: flex;
-  /* justify-content: space-between;
-  align-items: flex-end; */
 }
 
 .heading-items-item1 {
@@ -256,8 +254,6 @@ footer {
   height: 100%;
 }
 
-/* --------------------------------------------- Section 1----------------------------------------- */
-
 .section-banner-description {
   width: 36%;
 }
@@ -292,12 +288,7 @@ footer {
   width: 64%;
 }
 
-/* .section-screen {
-  display: inline-flex;
-} */
-
 .section-screen-images {
-  /* display: flex; */
   position: absolute;
   width: 47%;
   height: 51%;
@@ -328,33 +319,6 @@ footer {
   right: 0;
   margin: auto;
 }
-
-/* .macbook2 {
-  position: absolute;
-  bottom: 0;
-} */
-
-/* .banner {
-  position: absolute;
-  width: 439px;
-}
-
-.banner1 {
-  top: 40px;
-  left: 70px;
-}
-
-.banner2 {
-  top: 40px;
-  left: 510px;
-}
-
-.banner3 {
-  bottom: 40px;
-  left: 290px;
-} */
-
-/* ------------------------------------------------------ Section 3 -------------------------------- */
 
 .section-feedback {
   background-color: #fff;
@@ -555,14 +519,10 @@ footer {
   width: 25%;
   margin: 0;
   padding: 0;
-  /* max-height: 300px; */
-  /* margin-top: 0; */
   font-size: 16px;
-  /* padding: 0 25px; */
 }
 
 .footer-menu-items-secondary-li {
-  /* padding: 15px 25px 0 25px; */
   padding-top: 15px;
   padding-left: 25px;
 }
