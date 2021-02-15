@@ -226,16 +226,534 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    min-height: 520px;
+  }
+
+  section {
+    height: 100%;
+    min-height: 750px;
+  }
+
+  footer {
+    height: 100%;
+    min-height: 600px;
+  }
+
+  input,
+  #message {
+    width: 380px;
+  }
+
+  .cooperation,
+  .input-description,
+  .footer-menu-items-secondary-ul,
+  .contact,
+  .feedback-description {
+    font-size: 16px;
+  }
+  /* body {
+    font-size: 1.7vw;
+  }
+
+  h1 {
+    font-size: 2.9vw;
+  }
+  .cooperation,
+  .input-description,
+  .footer-menu-items-secondary-ul,
+  .contact,
+  .feedback-description {
+    font-size: 1.5vw;
+  }
+
+  .item-application {
+    font-size: 1.2vw;
+  }
+
+  .menu-item {
+    font-size: 1.8vw;
+  }
+
+  .border {
+    font-size: 1.6vw;
+  }
+
+  .all-about-germany-footer {
+    font-size: 2.6vw;
+  } */
+
+  .lock {
+    display: none;
+  }
+
+  .unlock {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .menu-item {
+    font-size: 20px;
+  }
+
   .menu-items {
     flex-wrap: wrap;
   }
 
   .li-menu-item {
-    flex: 1 0 25%;
+    flex: 1 0 35%;
     margin: 10px 10px;
+  }
+
+  .unlock-item-2 {
+    display: flex;
+  }
+
+  .all-about-germany {
+    margin-top: 15px;
+  }
+
+  /* .img-heading-background {
+    top: 13px;
+    left: -35px;
+    width: 303px;
+    height: 49px;
+  } */
+
+  .lines-menu {
+    background: url("../img/lines-menu.png") no-repeat;
+    background-size: contain;
+    width: 41px;
+    height: 22px;
+  }
+
+  .lines-menu:hover {
+    background: url("../img/lines-menu-red.png") no-repeat;
+    background-size: contain;
+  }
+
+  .search {
+    margin: 0 10px 0 0;
+  }
+  .search-btn-item {
+    margin-right: 0;
+    margin-bottom: 5px;
+    margin-left: 30px;
+  }
+
+  .cooperation,
+  .input-description,
+  .footer-menu-items-secondary-ul,
+  .contact,
+  .feedback-description {
+    font-size: 16px;
+  }
+
+  .heading,
+  .section-info,
+  .footer-block {
+    margin: 0 15px;
+    flex-direction: column;
+  }
+
+  .img-heading-background {
+    display: none;
+  }
+
+  .all-about-germany {
+    font-size: 29px;
+  }
+
+  /* .menu-items {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .menu-item {
+    font-size: 20px;
+  }
+
+  .li-menu-item {
+    margin: 20px 0;
+  } */
+
+  .heading-item-first,
+  .heading-item-second {
+    display: none;
+  }
+
+  .unlock-item-1 {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .item-application {
+    width: 320px;
+    margin: 15px 0 35px 0;
+    font-size: 16px;
+  }
+
+  .icon-contact {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .section-banner-description {
+    width: 100%;
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h1-section,
+  .feedback-heading {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .submit-application-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 42px;
+  }
+
+  .section-banner-images {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-macbook1-image {
+    position: relative;
+    width: 80%;
+    height: 80%;
+  }
+
+  .section-macbook2-image {
+    position: relative;
+    margin-top: 20px;
+    width: 80%;
+    height: 100%;
+  }
+
+  .section-native-advertising,
+  .section-advertising-your-service {
+    min-height: 700px;
+  }
+
+  .submit-button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .hello-germany-block {
+    display: none;
+  }
+
+  .section-feedback-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback-block {
+    margin-top: 20px;
+    width: 100%;
+    height: 495px;
+  }
+
+  .feedback-btn {
+    margin: 0;
+  }
+
+  .footer-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .border {
+    font-size: 18px;
+  }
+
+  .footer-menu {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-menu-items-secondary {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .footer-menu-items-secondary-ul {
+    width: 50%;
+  }
+
+  .footer-item-last {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-menu-block {
+    width: 90%;
   }
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+  /* body {
+    font-size: 16px;
+  }
+
+  header {
+    min-height: 520px;
+  }
+
+  section {
+    min-height: 650px;
+  }
+
+  footer {
+    height: 100%;
+    min-height: 600px;
+  }
+
+  input,
+  #message {
+    width: 80vw;
+  }
+
+  .cooperation,
+  .input-description,
+  .footer-menu-items-secondary-ul,
+  .contact,
+  .feedback-description {
+    font-size: 16px;
+  }
+
+  .heading,
+  .section-info,
+  .footer-block {
+    margin: 0 15px;
+    flex-direction: column;
+  }
+
+  .img-heading-background {
+    display: none;
+  }
+
+  .all-about-germany {
+    font-size: 29px;
+  }
+
+  .menu-items {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .menu-item {
+    font-size: 20px;
+  }
+
+  .li-menu-item {
+    margin: 20px 0;
+  }
+
+  .heading-item-first,
+  .heading-item-second {
+    display: none;
+  }
+
+  .unlock-item-1 {
+    margin-top: 265px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .item-application {
+    width: 320px;
+    margin: 15px 0 35px 0;
+    font-size: 16px;
+  }
+
+  .icon-contact {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .section-banner-description {
+    width: 100%;
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h1-section,
+  .feedback-heading {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .submit-application-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 42px;
+  }
+
+  .section-banner-images {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-macbook1-image {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .section-macbook2-image {
+    width: 100%;
+    height: 100%;
+    top: -30px;
+  }
+
+  .section-native-advertising,
+  .section-advertising-your-service {
+    min-height: 700px;
+  }
+
+  .submit-button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .hello-germany-block {
+    display: none;
+  }
+
+  .section-feedback-block {
+    width: 100%;
+  }
+
+  .feedback-block {
+    margin-top: 20px;
+    width: 100%;
+    height: 495px;
+  }
+
+  .feedback-btn {
+    margin: 0;
+  }
+
+  .footer-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .border {
+    font-size: 18px;
+  }
+
+  .footer-menu {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-menu-items-secondary {
+    flex-wrap: wrap;
+  }
+  .footer-menu-items-secondary-ul {
+    width: 50%;
+  }
+
+  .footer-item-last {
+    width: 100%;
+    margin-bottom: 20px;
+  } */
+
+  .unlock-item-1 {
+    margin-top: 265px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .menu-items {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .menu-item {
+    font-size: 20px;
+  }
+
+  .li-menu-item {
+    margin: 20px 0;
+  }
+
+  input,
+  #message {
+    width: 80vw;
+  }
+
+  section {
+    min-height: 650px;
+  }
+
+  .section-macbook1-image {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .section-macbook2-image {
+    width: 100%;
+    height: 100%;
+    top: -30px;
+  }
+
+  .footer-menu-items-secondary {
+    width: 100%;
+  }
+
+  .footer-menu-block {
+    width: 100%;
+  }
 }

@@ -69,6 +69,10 @@ footer {
   justify-content: center;
 }
 
+.unlock {
+  display: none;
+}
+
 .font-montserrat {
   font-family: "Montserrat", sans-serif;
 }
@@ -209,6 +213,7 @@ footer {
 .menu {
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 
 .menu-items {
