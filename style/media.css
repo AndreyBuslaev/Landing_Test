@@ -1,5 +1,6 @@
 @media (min-width: 1200px) and (max-width: 1440px) {
-  body {
+  body,
+  #button {
     font-size: 1.3vw;
   }
 
@@ -34,7 +35,8 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 991px) and (max-width: 1199px) {
-  body {
+  body,
+  #button {
     font-size: 1.3vw;
   }
 
@@ -76,7 +78,8 @@
 
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
-  body {
+  body,
+  #button {
     font-size: 1.3vw;
   }
 
@@ -92,7 +95,7 @@
     min-height: 380px;
   }
 
-  input {
+  .input {
     width: 36vw;
   }
 
@@ -226,7 +229,8 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  body {
+  body,
+  #button {
     font-size: 16px;
   }
 
@@ -244,7 +248,7 @@
     min-height: 600px;
   }
 
-  input,
+  .input,
   #message {
     width: 380px;
   }
@@ -492,7 +496,7 @@
     margin: 20px 0;
   }
 
-  input,
+  .input,
   #message {
     width: 80vw;
   }

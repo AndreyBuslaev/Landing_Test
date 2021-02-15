@@ -49,7 +49,7 @@ section {
   background-color: #e0e0e0;
 }
 
-input {
+.input {
   margin-top: 15px;
   width: 26vw;
   max-width: 420px;
@@ -58,7 +58,7 @@ input {
   font-size: 16px;
 }
 
-input:focus {
+.input:focus {
   outline: none;
 }
 
@@ -382,6 +382,11 @@ footer {
   width: 100%;
   height: 42%;
   text-align: end;
+}
+
+#button {
+  font-size: 18px;
+  padding: 0;
 }
 
 .feedback-btn {

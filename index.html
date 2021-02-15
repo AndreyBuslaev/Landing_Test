@@ -154,14 +154,20 @@
         <div  class="feedback-block">
             <h1 class='feedback-heading'>Обратная связь</h1>
             <p class='feedback-description'>Оставьте свое сообщение и мы свяжемся с Вами в ближайшее время.</p>
-            <form action="#" class="form-feedback">
-                <p class="input-description">Имя, Фамилия<br><input type="text" required></p>
-                <p class="input-description">Тема<br><input type="text" required ></p>
-                <p class="input-description">E-mail<br><input type="email" required></p>
-                <p><textarea name="" id="message" rows="3" cols="34" placeholder="Ваше сообщение..."></textarea></p>
+            <form action="#" id="formData" class="form-feedback">
+                <p class="input-description">Имя, Фамилия<br><input class="input" name="name" type="text" required></p>
+                <p class="input-description">Тема<br>
+                    <select class="input" size="1" name="theme">
+                        <option value="t1" selected>Хочу стать автором</option>
+                        <option value="t2">Получить консультацию</option>
+                        <option value="t3">Другое</option>
+                    </select>
+                    </p>
+                <p class="input-description">E-mail<br><input class="input" type="email" name="email" required></p>
+                <p><textarea form="formData" name="message" id="message" rows="3" cols="34" placeholder="Ваше сообщение..."></textarea></p>
             </form>
         </div>
-        <div class='feedback-btn-wrapper submit-button'><a href="#" class="submit-application-button feedback-btn">Оставить заявку</a></div>
+        <div class='feedback-btn-wrapper submit-button'><input type="submit" id="button" form="formData" class="submit-application-button feedback-btn" value="Оставить заявку"></div>
     </div>
         <div class="hello-germany-block">
             <div class="hello-germany-img"></div>
@@ -227,5 +233,6 @@
         </div>
     </footer>
 </div>
+<script src="./JS/main.js"></script>
 </body>
 </html>
